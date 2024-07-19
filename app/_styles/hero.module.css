@@ -1,0 +1,118 @@
+.hero {
+    display: flex;
+    gap: 50px;
+    padding-top: 25px;
+}
+
+.content1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 15px;
+}
+
+.content1 p{
+    margin-left: 25px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.heading{
+    display: flex;
+    gap: 35px;
+}
+
+.heading h1{
+    font-size: 60px;
+    margin-left: 25px;
+}
+  
+.imageWrapper {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    animation: bounce 2s infinite;
+}
+
+.icons{
+    display: flex;
+    margin-left: 25px;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.linkedinIcon {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    background-color: rgb(0, 119, 181);
+    border-radius: 50%;
+}
+
+.linkedinIcon:hover{
+    background-color: rgba(0, 119, 181, 0.5);
+}
+
+.githubIcon{
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    background-color: rgb(39, 40, 40);
+    border-radius: 50%;
+}
+
+.githubIcon:hover{
+    background-color: rgba(39, 40, 40, 0.5);
+}
+
+.mailIcon {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    background-color: rgb(183, 33, 41);
+    border-radius: 50%;
+}
+
+.mailIcon:hover{
+    background-color: rgba(183, 33, 41, 0.5);
+}
+
+.buttons{
+    display: flex;
+    gap: 50px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+@keyframes bounce{
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(15%);
+        opacity: 1;
+    }
+    70% {
+        transform: translateX(-5%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.bannerImage{
+    animation: slideIn 2.5s ease-out;
+}
