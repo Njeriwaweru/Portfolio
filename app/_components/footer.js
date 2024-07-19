@@ -22,7 +22,7 @@ function footer() {
             </div>
 
             <div className={styles.image}>
-                <Image src={'/end.png'} width={200} height={200}/>
+                <Image src={'/public/end.png'} width={200} height={200}/>
             </div>
         </div>
 

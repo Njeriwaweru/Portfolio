@@ -10,7 +10,7 @@ function Skills() {
   return (
     <div id='skills' className={styles.skills}>
         <div className={styles.content1}>
-            <Image src={'/skills.png'} width={600} height={500} alt=''/>
+            <Image src={'/public/skills.png'} width={600} height={500} alt=''/>
         </div>
 
         <div className={styles.content2}>

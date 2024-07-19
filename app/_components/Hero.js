@@ -27,7 +27,7 @@ function Hero() {
             <div className={styles.heading}>
                 <h1>Hi, I'm Praise</h1>
                 <div className={styles.imageWrapper}>
-                    <Image src={'/hand.png'} width={70} height={70} alt='hand'/>
+                    <Image src={'/public/hand.png'} width={70} height={70} alt='hand'/>
                 </div>
             </div>
             <p>
@@ -48,7 +48,7 @@ function Hero() {
         </div>
 
         <div className={styles.content2}>
-            <Image className={styles.bannerImage} src={'/banner1.png'} width={800} height={500} alt='computer girl'/>
+            <Image className={styles.bannerImage} src={'/public/banner1.png'} width={800} height={500} alt='computer girl'/>
         </div>
 
         
