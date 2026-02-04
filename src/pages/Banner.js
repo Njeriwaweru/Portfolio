@@ -1,4 +1,4 @@
-import bannerImg from "../assets/images/bannerImg.png"
+import bannerImg from "../assets/images/banner.jpeg"
 import arrow from "../assets/images/arrow.png"
 
 const Banner = () => {
@@ -6,7 +6,7 @@ const Banner = () => {
         <div className="relative flex gap-48 px-36 pt-24 pb-16">
             <div>
                 <div className="absolute inset-0 blur-3xl bg-blue-500/30 rounded-full w-64 h-64 mt-28 ml-28"></div>
-                <p className="text-white text-3xl ml-56 font-medium">Hello, I am <span className="text-purple-500">Praise Waweru</span></p>
+                <p className="text-white text-4xl ml-40 font-medium">Hello, I am <span className="text-purple-500">Praise Waweru</span></p>
                 {/* <img 
                     src = {arrow}
                     alt = "arrow"
@@ -15,7 +15,7 @@ const Banner = () => {
                 <img
                     src={bannerImg}
                     alt="Banner Image"
-                    className="relative w-45 h-45 mt-28 ml-28 shadow-2xl rounded-full shadow-blue-500/50"
+                    className="relative object-cover h-96 w-96 mt-28 ml-28 shadow-2xl rounded-full shadow-blue-500/50"
                 />
             </div>
             <div>
