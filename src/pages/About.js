@@ -92,19 +92,19 @@ const About = () => {
                             <ul className="space-y-4">
                                 <li className="flex items-start gap-3 text-gray-300">
                                     <div className="mt-1 text-purple-400">•</div>
-                                    <span><span className="text-white font-semibold">Clean Code:</span> Writing maintainable, well-documented code that stands the test of time</span>
+                                    <span><span className="text-white font-semibold md:text-base">Clean Code:</span> Writing maintainable, well-documented code that stands the test of time</span>
                                 </li>
                                 <li className="flex items-start gap-3 text-gray-300">
                                     <div className="mt-1 text-purple-400">•</div>
-                                    <span><span className="text-white font-semibold">User-Centric Design:</span> Creating interfaces that are not just functional but delightful to use</span>
+                                    <span><span className="text-white font-semibold md:text-base">User-Centric Design:</span> Creating interfaces that are not just functional but delightful to use</span>
                                 </li>
                                 <li className="flex items-start gap-3 text-gray-300">
                                     <div className="mt-1 text-purple-400">•</div>
-                                    <span><span className="text-white font-semibold">Continuous Learning:</span> Staying updated with the latest technologies and best practices</span>
+                                    <span><span className="text-white font-semibold md:text-base">Continuous Learning:</span> Staying updated with the latest technologies and best practices</span>
                                 </li>
                                 <li className="flex items-start gap-3 text-gray-300">
                                     <div className="mt-1 text-purple-400">•</div>
-                                    <span><span className="text-white font-semibold">Problem Solving:</span> Breaking down complex challenges into manageable solutions</span>
+                                    <span><span className="text-white font-semibold md:text-base">Problem Solving:</span> Breaking down complex challenges into manageable solutions</span>
                                 </li>
                             </ul>
                         </div>
