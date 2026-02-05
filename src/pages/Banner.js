@@ -33,8 +33,8 @@ const Banner = () => {
                     />
                 </div>
                 <div>
-                    <p className="text-white text-2xl mt-36">A developer who<br/> <span className="text-4xl font-bold">Judges a book<br/> by its <span className="text-purple-500">cover...</span></span></p>
-                    <p className="text-white pt-6 text-xl">Because if the cover does not impress you, what else can?</p>
+                    <p className="text-white text-4xl mt-36">A developer who<br/> <span className="text-6xl font-bold">Judges a book<br/> by its <span className="text-purple-500">cover...</span></span></p>
+                    <p className="text-white pt-6 text-2xl">Because if the cover does not impress you, what else can?</p>
                 </div>
             </div>
         </section>
