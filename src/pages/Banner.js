@@ -25,7 +25,7 @@ const Banner = () => {
             <div className="hidden lg:flex relative gap-48 px-36 pb-16">
                 <div>
                     <div className="absolute inset-0 blur-3xl bg-blue-500/30 rounded-full w-64 h-64 mt-28 ml-28"></div>
-                    <p className="text-white text-xl ml-40 mt-16 font-medium">Hello, I am <span className="text-purple-500">Praise Waweru</span></p>
+                    <p className="text-white ml-40 mt-16 font-medium text-2xl">Hello, I am <span className="text-purple-500">Praise Waweru</span></p>
                     <img
                         src={bannerImg}
                         alt="Praise Waweru"
