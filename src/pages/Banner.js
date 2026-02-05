@@ -7,7 +7,7 @@ const Banner = () => {
             <div className="lg:hidden flex flex-col items-center px-6 py-12">
                 {/* Text for mobile */}
                 <p className="text-white text-2xl sm:text-3xl font-medium mb-8 text-center">
-                    Hello, I am <span className="">Praise Waweru</span>
+                    Hello, I am <span className="text-purple-500 font-semibold">Praise Waweru</span>
                 </p>
                 
                 {/* Image for mobile */}
@@ -25,7 +25,7 @@ const Banner = () => {
             <div className="hidden lg:flex relative gap-48 px-36 pb-16">
                 <div>
                     <div className="absolute inset-0 blur-3xl bg-blue-500/30 rounded-full w-64 h-64 mt-28 ml-28"></div>
-                    <p className="text-white text-3xl ml-40 mt-16 font-medium">Hello, I am <span className="text-purple-500">Praise Waweru</span></p>
+                    <p className="text-white text-2xl ml-40 mt-16 font-medium">Hello, I am <span className="text-purple-500">Praise Waweru</span></p>
                     <img
                         src={bannerImg}
                         alt="Praise Waweru"
@@ -33,8 +33,8 @@ const Banner = () => {
                     />
                 </div>
                 <div>
-                    <p className="text-white text-3xl mt-36">A developer who<br/> <span className="text-6xl font-bold">Judges a book<br/> by its <span className="text-purple-500">cover...</span></span></p>
-                    <p className="text-white pt-6 text-2xl">Because if the cover does not impress you, what else can?</p>
+                    <p className="text-white text-2xl mt-36">A developer who<br/> <span className="text-4xl font-bold">Judges a book<br/> by its <span className="text-purple-500">cover...</span></span></p>
+                    <p className="text-white pt-6 text-xl">Because if the cover does not impress you, what else can?</p>
                 </div>
             </div>
         </section>
