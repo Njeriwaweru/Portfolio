@@ -14,7 +14,7 @@ const About = () => {
             <div className="max-w-6xl mx-auto">
                 {/* Header */}
                 <div className="text-center mb-16">
-                    <h1 className="text-white text-5xl font-bold mb-6">
+                    <h1 className="text-white text-5xl md:text-6xl font-bold mb-6">
                         About <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Me</span>
                     </h1>
                     <div className="h-24 flex items-center justify-center">
@@ -40,12 +40,12 @@ const About = () => {
                                 <FaCode className="text-purple-400" />
                                 My Journey
                             </h2>
-                            <p className="text-gray-300 text-lg leading-relaxed">
+                            <p className="text-gray-300 text-lg md:text-base leading-relaxed">
                                 I'm a passionate software developer specializing in creating modern web applications with React and Tailwind CSS. 
                                 With a strong foundation in frontend development and a keen eye for design, I enjoy transforming complex problems 
                                 into simple, beautiful, and intuitive solutions.
                             </p>
-                            <p className="text-gray-300 text-lg leading-relaxed mt-4">
+                            <p className="text-gray-300 text-lg md:text-base leading-relaxed mt-4">
                                 I'm constantly learning new technologies and best practices to build efficient, scalable applications that provide 
                                 exceptional user experiences. Currently expanding my skills in full-stack development while contributing to 
                                 real-world projects at the ICT Authority.
@@ -53,7 +53,7 @@ const About = () => {
                             
                             <div className="mt-8 p-4 rounded-lg bg-gradient-to-r from-purple-900/20 to-pink-900/20 
                                          border border-purple-700/30">
-                                <p className="text-purple-200 text-sm">
+                                <p className="text-purple-200 text-xs">
                                     "Code is like humor. When you have to explain it, it's bad."
                                     <span className="block text-right text-xs text-gray-400 mt-1">- Cory House</span>
                                 </p>
