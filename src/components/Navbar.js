@@ -16,18 +16,23 @@ const Navbar = () => {
     return (
         <>
             <nav className="fixed top-0 left-0 right-0 z-50 
-                          text-white flex h-11 md:h-28 px-4 md:px-8 pt-4 md:pt-8 items-center 
+                          text-white flex h-16 md:h-28 px-4 md:px-8 pt-4 md:pt-8 items-center 
                           justify-between border-b-4 rounded-md border-gray-700/50
                           bg-primary/95 backdrop-blur-sm shadow-xl"
             >
-                <p className="font-playwrite text-lg md:text-2xl pl-4 md:pl-16">
+                <p className="font-playwrite text-xl md:text-2xl pl-4 md:pl-16">
                     Praise Waweru
                 </p>
 
                 {/* Desktop Menu */}
                 <div className="hidden md:flex justify-between gap-8 lg:gap-28 pr-4 lg:pr-36">
                     {navLinks.map((item) => (
-                        <Link key={item.title} title={item.title} link={item.link} />
+                        <Link
+                            key={item.title}
+                            title={item.title}
+                            link={item.link}
+                            className="text-base"
+                        />
                     ))}
                 </div>
 
@@ -61,7 +66,7 @@ const Navbar = () => {
                                 }
                                 setIsMenuOpen(false);
                             }}
-                            className="text-white text-base font-medium py-3 px-4 rounded-lg
+                            className="text-white text-xl font-medium py-3 px-4 rounded-lg
                                      hover:bg-gray-800/50 hover:text-purple-400 
                                      transition-all duration-300 border-l-4 border-transparent
                                      hover:border-purple-500"
