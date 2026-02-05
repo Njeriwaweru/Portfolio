@@ -25,11 +25,11 @@ const Banner = () => {
             <div className="hidden lg:flex relative gap-48 px-36 pb-16">
                 <div>
                     <div className="absolute inset-0 blur-3xl bg-blue-500/30 rounded-full w-64 h-64 mt-28 ml-28"></div>
-                    <p className="text-white text-2xl ml-40 mt-16 font-medium">Hello, I am <span className="text-purple-500">Praise Waweru</span></p>
+                    <p className="text-white text-xl ml-40 mt-16 font-medium">Hello, I am <span className="text-purple-500">Praise Waweru</span></p>
                     <img
                         src={bannerImg}
                         alt="Praise Waweru"
-                        className="relative object-cover mt-28 ml-28 shadow-2xl rounded-full shadow-blue-500/50 h-80 w-80"
+                        className="relative object-cover mt-28 ml-28 shadow-2xl rounded-full shadow-blue-500/50 h-72 w-72"
                     />
                 </div>
                 <div>
