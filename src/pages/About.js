@@ -118,20 +118,20 @@ const About = () => {
                             </h2>
                             <div className="grid grid-cols-2 gap-4">
                                 <div className="p-4 rounded-lg bg-purple-900/20 border border-purple-700/30">
-                                    <div className="text-sm text-purple-300 mb-1">Frontend</div>
-                                    <div className="text-white">TypeScript</div>
+                                    <div className="text-xs text-purple-300 mb-1">Frontend</div>
+                                    <div className="text-white text-xs">TypeScript</div>
                                 </div>
                                 <div className="p-4 rounded-lg bg-pink-900/20 border border-pink-700/30">
                                     <div className="text-sm text-pink-300 mb-1">Backend</div>
-                                    <div className="text-white">Node.js</div>
+                                    <div className="text-white text-xs">Node.js</div>
                                 </div>
                                 <div className="p-4 rounded-lg bg-blue-900/20 border border-blue-700/30">
                                     <div className="text-sm text-blue-300 mb-1">DevOps</div>
-                                    <div className="text-white">Docker</div>
+                                    <div className="text-white text-xs">Docker</div>
                                 </div>
                                 <div className="p-4 rounded-lg bg-green-900/20 border border-green-700/30">
                                     <div className="text-sm text-green-300 mb-1">Database</div>
-                                    <div className="text-white">MongoDB</div>
+                                    <div className="text-white text-xs">MongoDB</div>
                                 </div>
                             </div>
                             
