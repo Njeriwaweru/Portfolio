@@ -13,10 +13,10 @@ const Experience = () => {
     return (
         <section id="experience" className="py-20">
             <div className="container mx-auto px-4">
-                <h1 className="text-white text-center text-5xl md:text-7xl font-bold mb-4">
+                <h1 className="text-white text-center text-5xl md:text-6xl font-bold mb-4">
                     Work <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Experience</span>
                 </h1>
-                <p className="text-gray-400 text-center text-lg mb-16 max-w-2xl mx-auto">
+                <p className="text-gray-400 text-center text-base mb-16 max-w-2xl mx-auto">
                     My professional journey and contributions
                 </p>
 
@@ -43,7 +43,7 @@ const Experience = () => {
                                 {/* Header */}
                                 <div className="flex items-start justify-between mb-6">
                                     <div className="flex items-center gap-4">
-                                        <div className="text-4xl text-purple-400">
+                                        <div className="text-3xl text-purple-400">
                                             {/* check for image */}
                                             {exp.logo && (
                                                 typeof exp.logo === 'string' && 
@@ -59,11 +59,11 @@ const Experience = () => {
                                             )}
                                         </div>
                                         <div>
-                                            <h3 className="text-white text-2xl font-bold">{exp.position}</h3>
-                                            <p className="text-purple-300 text-lg font-semibold">{exp.company}</p>
+                                            <h3 className="text-white text-xl font-bold">{exp.position}</h3>
+                                            <p className="text-purple-300 text-base font-semibold">{exp.company}</p>
                                         </div>
                                     </div>
-                                    <div className="text-2xl text-purple-400">
+                                    <div className="text-xl text-purple-400">
                                         {expandedId === exp.id ? <FaChevronUp /> : <FaChevronDown />}
                                     </div>
                                 </div>
@@ -80,7 +80,7 @@ const Experience = () => {
                                     </div>
                                     <div className="flex items-center gap-2">
                                         <MdWork className="text-purple-400" />
-                                        <span className="bg-purple-900/30 px-3 py-1 rounded-full text-sm">
+                                        <span className="bg-purple-900/30 px-3 py-1 rounded-full text-xs">
                                             {index === 0 ? 'Current' : 'Past'}
                                         </span>
                                     </div>
@@ -92,7 +92,7 @@ const Experience = () => {
                                 }`}>
                                     {/* Description */}
                                     <div className="mb-6">
-                                        <h4 className="text-white text-lg font-semibold mb-3">Responsibilities</h4>
+                                        <h4 className="text-white text-base font-semibold mb-3">Responsibilities</h4>
                                         <ul className="space-y-2">
                                             {exp.description.map((item, idx) => (
                                                 <li key={idx} className="flex items-start gap-3 text-gray-300">
@@ -105,7 +105,7 @@ const Experience = () => {
 
                                     {/* Skills */}
                                     <div>
-                                        <h4 className="text-white text-lg font-semibold mb-3">Technologies Used</h4>
+                                        <h4 className="text-white text-base font-semibold mb-3">Technologies Used</h4>
                                         <div className="flex flex-wrap gap-2">
                                             {exp.skills.map((skill, idx) => (
                                                 <span 
