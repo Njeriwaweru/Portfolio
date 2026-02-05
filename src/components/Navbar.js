@@ -16,7 +16,7 @@ const Navbar = () => {
     return (
         <>
             <nav className="fixed top-0 left-0 right-0 z-50 
-                          text-white flex h-16 md:h-28 px-4 md:px-8 pt-4 md:pt-8 items-center 
+                          text-white flex h-12 md:h-28 px-4 md:px-8 pt-4 md:pt-8 items-center 
                           justify-between border-b-4 rounded-md border-gray-700/50
                           bg-primary/95 backdrop-blur-sm shadow-xl"
             >
