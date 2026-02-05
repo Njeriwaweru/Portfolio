@@ -39,10 +39,10 @@ const Skills = () => {
     return (
         <section ref={skillsRef} className="pt-8 pb-16">
             <div className="container mx-auto px-4">
-                <h1 className="text-white text-center text-5xl md:text-7xl font-bold mb-4">
+                <h1 className="text-white text-center text-5xl md:text-6xl font-bold mb-4">
                     Skills
                 </h1>
-                <p className="text-gray-400 text-center text-lg mb-16 max-w-2xl mx-auto">
+                <p className="text-gray-400 text-center text-base mb-16 max-w-2xl mx-auto">
                     Technologies I work with
                 </p>
                 
@@ -70,7 +70,7 @@ const Skills = () => {
                                 <div className={`text-5xl mb-3 ${skill.color}`}>
                                     <Icon />
                                 </div>
-                                <h3 className="text-white text-center text-sm md:text-base font-medium">
+                                <h3 className="text-white text-center text-sm font-medium">
                                     {skill.name}
                                 </h3>
                             </div>
@@ -102,7 +102,7 @@ const Skills = () => {
                                 <div className={`text-5xl mb-3 ${skill.color}`}>
                                     <Icon />
                                 </div>
-                                <h3 className="text-white text-center text-sm md:text-base font-medium">
+                                <h3 className="text-white text-center text-sm font-medium">
                                     {skill.name}
                                 </h3>
                             </div>
