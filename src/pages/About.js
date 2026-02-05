@@ -14,18 +14,18 @@ const About = () => {
             <div className="max-w-6xl mx-auto">
                 {/* Header */}
                 <div className="text-center mb-16">
-                    <h1 className="text-white text-5xl md:text-7xl font-bold mb-6">
+                    <h1 className="text-white text-5xl font-bold mb-6">
                         About <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Me</span>
                     </h1>
                     <div className="h-24 flex items-center justify-center">
-                        <p className="text-white text-3xl md:text-4xl font-bold">
+                        <p className="text-white text-3xl font-bold">
                             I'm a{" "}
                             <span className="text-purple-400 border-b-2 border-purple-500 pb-1">
                                 {typingText}
                             </span>
                         </p>
                     </div>
-                    <p className="text-purple-300 text-xl mt-4 flex items-center justify-center gap-2">
+                    <p className="text-purple-300 text-lg mt-4 flex items-center justify-center gap-2">
                         <FaGraduationCap className="animate-pulse" />
                         Currently, an intern at the ICT Authority
                     </p>
