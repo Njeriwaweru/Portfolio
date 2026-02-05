@@ -28,7 +28,7 @@ const Banner = () => {
                     <p className="text-white text-4xl ml-40 mt-16 font-medium">Hello, I am <span className="text-purple-500">Praise Waweru</span></p>
                     <img
                         src={bannerImg}
-                        alt="Banner Image"
+                        alt="Praise Waweru"
                         className="relative object-cover h-96 w-96 mt-28 ml-28 shadow-2xl rounded-full shadow-blue-500/50"
                     />
                 </div>
