@@ -16,7 +16,7 @@ const Navbar = () => {
     return (
         <>
             <nav className="fixed top-0 left-0 right-0 z-50 
-                          text-white flex h-20 md:h-28 px-4 md:px-8 pt-4 md:pt-8 items-center 
+                          text-white flex h-14 md:h-28 px-4 md:px-8 pt-4 md:pt-8 items-center 
                           justify-between border-b-4 rounded-md border-gray-700/50
                           bg-primary/95 backdrop-blur-sm shadow-xl"
             >
@@ -61,7 +61,7 @@ const Navbar = () => {
                                 }
                                 setIsMenuOpen(false);
                             }}
-                            className="text-white text-xl font-medium py-3 px-4 rounded-lg
+                            className="text-white text-lg font-medium py-3 px-4 rounded-lg
                                      hover:bg-gray-800/50 hover:text-purple-400 
                                      transition-all duration-300 border-l-4 border-transparent
                                      hover:border-purple-500"
