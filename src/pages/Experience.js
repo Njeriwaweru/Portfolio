@@ -11,10 +11,10 @@ const Experience = () => {
     };
 
     return (
-        <section className="py-20">
+        <section id="experience" className="py-20">
             <div className="container mx-auto px-4">
                 <h1 className="text-white text-center text-5xl md:text-7xl font-bold mb-4">
-                    Work Experience
+                    Work <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Experience</span>
                 </h1>
                 <p className="text-gray-400 text-center text-lg mb-16 max-w-2xl mx-auto">
                     My professional journey and contributions
@@ -44,18 +44,16 @@ const Experience = () => {
                                 <div className="flex items-start justify-between mb-6">
                                     <div className="flex items-center gap-4">
                                         <div className="text-4xl text-purple-400">
-                                            {/* check for image vs emoji */}
+                                            {/* check for image */}
                                             {exp.logo && (
                                                 typeof exp.logo === 'string' && 
                                                 (exp.logo.includes('/') || exp.logo.includes('.')) ? (
-                                                    // Image path/URL
                                                     <img 
                                                         src={exp.logo} 
                                                         alt={`${exp.company} logo`}
                                                         className="w-12 h-12 object-contain bg-gray-300 rounded-full"
                                                     />
                                                 ) : (
-                                                    // Emoji or icon
                                                     <span>{exp.logo}</span>
                                                 )
                                             )}

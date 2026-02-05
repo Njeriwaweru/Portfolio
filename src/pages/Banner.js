@@ -1,28 +1,43 @@
 import bannerImg from "../assets/images/banner.jpeg"
-import arrow from "../assets/images/arrow.png"
 
 const Banner = () => {
     return (
-        <div className="relative flex gap-48 px-36 pt-24 pb-16">
-            <div>
-                <div className="absolute inset-0 blur-3xl bg-blue-500/30 rounded-full w-64 h-64 mt-28 ml-28"></div>
-                <p className="text-white text-4xl ml-40 font-medium">Hello, I am <span className="text-purple-500">Praise Waweru</span></p>
-                {/* <img 
-                    src = {arrow}
-                    alt = "arrow"
-                    className="w-20 h-30 ml-56"
-                /> */}
-                <img
-                    src={bannerImg}
-                    alt="Banner Image"
-                    className="relative object-cover h-96 w-96 mt-28 ml-28 shadow-2xl rounded-full shadow-blue-500/50"
-                />
+        <section id="home">
+            {/* Mobile View */}
+            <div className="lg:hidden flex flex-col items-center px-6 py-12">
+                {/* Text for mobile */}
+                <p className="text-white text-2xl sm:text-3xl font-medium mb-8 text-center">
+                    Hello, I am <span className="text-purple-500 font-semibold">Praise Waweru</span>
+                </p>
+                
+                {/* Image for mobile */}
+                <div className="relative">
+                    <div className="absolute inset-0 blur-3xl bg-blue-500/30 rounded-full w-48 h-48 sm:w-56 sm:h-56"></div>
+                    <img
+                        src={bannerImg}
+                        alt="Praise Waweru"
+                        className="relative h-64 w-64 sm:h-72 sm:w-72 rounded-full shadow-2xl shadow-blue-500/50 object-cover"
+                    />
+                </div>
             </div>
-            <div>
-                <p className="text-white text-5xl mt-36">A developer who<br/> <span className="text-8xl font-bold">Judges a book<br/> by its <span className="text-purple-500">cover...</span></span></p>
-                <p className="text-white pt-6 text-2xl">Because if the cover does not impress you, what else can?</p>
+
+            {/* Desktop View */}
+            <div className="hidden lg:flex relative gap-48 px-36 pb-16">
+                <div>
+                    <div className="absolute inset-0 blur-3xl bg-blue-500/30 rounded-full w-64 h-64 mt-28 ml-28"></div>
+                    <p className="text-white text-4xl ml-40 mt-16 font-medium">Hello, I am <span className="text-purple-500">Praise Waweru</span></p>
+                    <img
+                        src={bannerImg}
+                        alt="Banner Image"
+                        className="relative object-cover h-96 w-96 mt-28 ml-28 shadow-2xl rounded-full shadow-blue-500/50"
+                    />
+                </div>
+                <div>
+                    <p className="text-white text-5xl mt-36">A developer who<br/> <span className="text-8xl font-bold">Judges a book<br/> by its <span className="text-purple-500">cover...</span></span></p>
+                    <p className="text-white pt-6 text-2xl">Because if the cover does not impress you, what else can?</p>
+                </div>
             </div>
-        </div>
+        </section>
     )
 }
 
