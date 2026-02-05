@@ -31,7 +31,7 @@ const Navbar = () => {
                             key={item.title}
                             title={item.title}
                             link={item.link}
-                            className="text-base text-red-500"
+                            className="text-sm font-semibold"
                         />
                     ))}
                 </div>
