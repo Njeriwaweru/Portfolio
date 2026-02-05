@@ -29,7 +29,7 @@ const Banner = () => {
                     <img
                         src={bannerImg}
                         alt="Praise Waweru"
-                        className="relative object-cover mt-28 ml-28 shadow-2xl rounded-full shadow-blue-500/50 h-72 w-72"
+                        className="relative object-cover mt-20 ml-28 shadow-2xl rounded-full shadow-blue-500/50 h-80 w-80"
                     />
                 </div>
                 <div>
