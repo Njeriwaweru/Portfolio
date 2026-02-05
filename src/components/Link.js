@@ -16,7 +16,7 @@ const Link = ({ title, link = "#", isActive = false, className = "" }) => {
         <a
             href={link}
             onClick={handleClick}
-             className={`relative text-xl font-semibold transition-all duration-300
+             className={`relative text-base font-semibold transition-all duration-300
                 ${isActive 
                     ? 'text-purple-400 scale-105' 
                     : 'text-gray-300 hover:text-purple-400 hover:scale-105'
