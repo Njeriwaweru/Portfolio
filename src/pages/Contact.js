@@ -41,14 +41,14 @@ const Contact = () => {
 
     const contactInfo = [
         {
-            icon: <FaEnvelope className="text-3xl" />,
+            icon: <FaEnvelope className="text-2xl" />,
             title: "Email",
             info: "njeripraise318@gmail.com",
             link: "mailto:njeripraise318@gmail.com",
             color: "from-red-500 to-pink-500"
         },
         {
-            icon: <FaMapMarkerAlt className="text-3xl" />,
+            icon: <FaMapMarkerAlt className="text-2xl" />,
             title: "Location",
             info: "Nairobi, Kenya",
             color: "from-blue-500 to-cyan-500"
@@ -80,10 +80,10 @@ const Contact = () => {
         <section id="contact" className="px-4 md:px-8">
             <div className="max-w-6xl mx-auto">
                 <div className="text-center mb-16">
-                    <h1 className="text-white text-5xl md:text-7xl font-bold mb-4">
+                    <h1 className="text-white text-5xl md:text-6xl font-bold mb-4">
                         Get In <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Touch</span>
                     </h1>
-                    <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+                    <p className="text-gray-400 text-base max-w-2xl mx-auto">
                         Have a project in mind or want to discuss opportunities? 
                         Feel free to reach out — I'd love to hear from you!
                     </p>
@@ -93,7 +93,7 @@ const Contact = () => {
                     <div className="space-y-8">
                         {/* Contact information */}
                         <div>
-                            <h2 className="text-2xl font-bold text-white mb-6">Contact Information</h2>
+                            <h2 className="text-xl font-bold text-white mb-6">Contact Information</h2>
                             <div className="space-y-6">
                                 {contactInfo.map((item, index) => (
                                     <a
@@ -121,7 +121,7 @@ const Contact = () => {
 
                         {/* Social Links */}
                         <div>
-                            <h3 className="text-xl font-bold text-white mb-6">Connect With Me</h3>
+                            <h3 className="text-lg font-bold text-white mb-6">Connect With Me</h3>
                             <div className="flex gap-4">
                                 {socialLinks.map((social, index) => (
                                     <a
@@ -130,7 +130,7 @@ const Contact = () => {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className={`p-4 rounded-full bg-gray-900/50 border border-gray-700/50 
-                                                   text-white text-xl ${social.color} 
+                                                   text-white text-lg ${social.color} 
                                                    hover:scale-110 transition-all duration-300 
                                                    transform hover:shadow-lg hover:shadow-purple-500/20`}
                                         aria-label={social.label}
@@ -146,7 +146,7 @@ const Contact = () => {
                     <div className="lg:col-span-2">
                         <div className="p-8 rounded-2xl bg-gradient-to-br from-gray-900/80 to-gray-800/80 
                                      backdrop-blur-sm border border-gray-700/50 shadow-xl">
-                            <h2 className="text-2xl font-bold text-white mb-2">Send a Message</h2>
+                            <h2 className="text-xl font-bold text-white mb-2">Send a Message</h2>
                             <p className="text-gray-400 mb-8">I'll get back to you as soon as possible</p>
 
                             {/* Error Message */}
@@ -221,7 +221,7 @@ const Contact = () => {
                                 <button
                                     type="submit"
                                     disabled={isSubmitting || isSubmitted}
-                                    className={`w-full py-3 px-6 rounded-lg font-semibold text-lg
+                                    className={`w-full py-3 px-6 rounded-lg font-semibold text-base
                                              flex items-center justify-center gap-2 transition-all duration-300
                                              ${isSubmitted 
                                                 ? 'bg-gradient-to-r from-green-500 to-emerald-600 cursor-default' 
@@ -237,12 +237,12 @@ const Contact = () => {
                                         </>
                                     ) : isSubmitted ? (
                                         <>
-                                            <FaCheck className="text-xl" />
+                                            <FaCheck className="text-lg" />
                                             Message Sent!
                                         </>
                                     ) : (
                                         <>
-                                            <FaPaperPlane className="text-xl" />
+                                            <FaPaperPlane className="text-lg" />
                                             Send Message
                                         </>
                                     )}
@@ -259,7 +259,7 @@ const Contact = () => {
                         </div>
 
                         {/* Note */}
-                        <p className="text-gray-500 text-sm mt-6 text-center">
+                        <p className="text-gray-500 text-xs mt-6 text-center">
                             You can also email me directly at{" "}
                             <a href="mailto:njeripraise318@gmail.com" className="text-purple-400 hover:text-purple-300">
                                 njeripraise318@gmail.com
