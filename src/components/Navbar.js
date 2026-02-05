@@ -20,7 +20,7 @@ const Navbar = () => {
                           justify-between border-b-4 rounded-md border-gray-700/50
                           bg-primary/95 backdrop-blur-sm shadow-xl"
             >
-                <p className="font-playwrite text-xl md:text-2xl pl-4 md:pl-16">
+                <p className="font-playwrite text-lg md:text-xl pl-4 md:pl-16 pb-2">
                     Praise Waweru
                 </p>
 
@@ -31,7 +31,7 @@ const Navbar = () => {
                             key={item.title}
                             title={item.title}
                             link={item.link}
-                            className="text-base"
+                            className="text-base text-red-500"
                         />
                     ))}
                 </div>
