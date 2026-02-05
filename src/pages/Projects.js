@@ -8,10 +8,10 @@ const Projects = () => {
     return (
         <section id="projects" className="pt-8 px-4 md:px-8">
             <div className="mx-auto">
-                <h1 className="text-white text-center text-5xl md:text-7xl font-bold">
+                <h1 className="text-white text-center text-5xl md:text-6xl font-bold">
                     My <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Projects</span>
                 </h1>
-                <p className="text-gray-400 text-center text-lg mb-12 max-w-2xl mx-auto mt-6">
+                <p className="text-gray-400 text-center text-base mb-12 max-w-2xl mx-auto mt-6">
                     A selection of projects I've built to solve problems and showcase my skills
                 </p>
                 

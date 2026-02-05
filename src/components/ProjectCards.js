@@ -16,9 +16,9 @@ const ProjectCards = ({ name, description, icon, link }) =>{
                     <div className="text-purple-400 text-4xl">
                         {icon}
                     </div>
-                    <h2 className="text-white text-2xl font-bold">{name}</h2>
+                    <h2 className="text-white text-2xl md:text-xl font-bold">{name}</h2>
                 </div>
-                    <p className="text-gray-300 mt-4 text-lg">{description}</p>
+                    <p className="text-gray-300 mt-4 text-lg md:text-base">{description}</p>
             </div>
         </a>
         
