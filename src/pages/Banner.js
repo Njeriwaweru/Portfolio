@@ -7,7 +7,7 @@ const Banner = () => {
             <div className="lg:hidden flex flex-col items-center px-6 py-12">
                 {/* Text for mobile */}
                 <p className="text-white text-2xl sm:text-3xl font-medium mb-8 text-center">
-                    Hello, I am <span className="text-purple-500 font-semibold">Praise Waweru</span>
+                    Hello, I am <span className="">Praise Waweru</span>
                 </p>
                 
                 {/* Image for mobile */}
